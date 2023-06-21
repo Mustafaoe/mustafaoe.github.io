@@ -1,0 +1,36 @@
+{% include header-en.html %}
+<article>
+
+	<header class="jumbotron">
+
+		<div class="container">
+
+			<h1>{{ page.title }}</h1>
+			
+			<p>{{ page.description }}</p>
+			
+			<!-- <p>
+				In {{ page.location }}, {{ page.year }}.
+			</p>
+ -->
+			<p>
+				{% if page.link-url %}<a href="{{ page.link-url }}" class="btn btn-primary btn-lg" target="_blank">Go to website</a>{% endif %}
+			</p>
+
+		</div>
+
+	</header>
+
+	<section>
+   		
+   		{{content}}
+
+   	</section>
+
+	<footer></footer>
+
+</article>
+
+
+{% include footer-infos-en.html %}
+{% include footer.html %}
