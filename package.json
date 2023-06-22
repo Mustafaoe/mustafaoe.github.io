@@ -10,10 +10,6 @@
     "grunt-contrib-uglify": "~0.4.0",
     "grunt-contrib-watch": "~0.6.1",
     "grunt-jekyll": "~0.4.1",
-    "grunt-uncss": "0.2.0",
-    "npm-dependency-exclusion": "^1.0.2"
-  },
-  "exclusions": {
-    "fsevents": "any"
+    "grunt-uncss": "0.2.0"
   }
 }
