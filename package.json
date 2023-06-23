@@ -11,6 +11,7 @@
     "grunt-contrib-watch": "~0.6.1",
     "grunt-jekyll": "~0.4.1",
     "grunt-uncss": "0.2.0",
+    "phantomjs": "^2.1.7",
     "npm-dependency-exclusion": "^1.0.2"
   },
   "exclusions": {
