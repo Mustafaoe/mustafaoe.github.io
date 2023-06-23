@@ -43,7 +43,7 @@ jobs:
       - name: grunt
         run:
           grunt
-      - name: Build with Jekyll
+      - name: Build with Jekyll again
         uses: actions/jekyll-build-pages@v1
         with:
           source: ./
