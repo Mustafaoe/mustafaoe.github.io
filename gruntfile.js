@@ -10,13 +10,6 @@ module.exports = function(grunt) {
       tasks: ['default'],
     },
 
-    jekyll: {
-      prod: {
-        src: '',
-        dest: '_site'
-      }
-    },
-
     less: {
       development: {
         options: {
@@ -85,9 +78,6 @@ module.exports = function(grunt) {
 
   // watch changes
   grunt.loadNpmTasks('grunt-contrib-watch');
-
-  // jekyll build
-  grunt.loadNpmTasks('grunt-jekyll');
   // less
   grunt.loadNpmTasks('grunt-contrib-less');
   // uncss
@@ -100,6 +90,6 @@ module.exports = function(grunt) {
   // Default task(s).
   // for production, use this:
   // grunt.registerTask('default', ['less', 'cssmin', 'jekyll']);
-  grunt.registerTask('default', ['less', 'uncss', 'cssmin', 'uglify', 'jekyll']);
+  grunt.registerTask('default', ['less', 'uncss', 'cssmin', 'uglify']);
 
 };
